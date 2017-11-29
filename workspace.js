@@ -1300,11 +1300,16 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
               }
             );
 
-            // WebRTC Client com-chilipeppr-webrtcclient
+            // com-chilipeppr-webcam-mjpeg
             
             chilipeppr.load(
-                "com-chilipeppr-webrtcclient",
-                "http://jsfiddle.net/voodoomanmiracle/y49wkvzj/show/light/"
+                "com-chilipeppr-webcam-mjpeg",
+                "http://fiddle.jshell.net/voodoomanmiracle/y49wkvzj/show/light/",
+                function() {
+                // Callback after widget loaded into #myDivWidgetRpmsensor
+                // Now use require.js to get reference to instantiated widget
+               
+              }
         
           ); //End WebRTC Client
             
