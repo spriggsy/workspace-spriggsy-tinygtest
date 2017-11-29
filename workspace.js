@@ -1324,6 +1324,58 @@ chilipeppr.load(
   }
 );
 
+
+
+
+
+
+
+chilipeppr.load(
+  "com-chilipeppr-webcam-mjpeg",
+  "http://raw.githubusercontent.com/spriggsy/widget-mycam/master/auto-generated-widget.html",
+  function() {
+    // Callback after widget loaded into #myDivWidgetMycam
+    // Now use require.js to get reference to instantiated widget
+    cprequire(
+      ["inline:com-chilipeppr-widget-mycam"], // the id you gave your widget
+      function(myObjWidgetMycam) {
+        // Callback that is passed reference to the newly loaded widget
+        console.log("Widget / myCam just got loaded.", myObjWidgetMycam);
+        myObjWidgetMycam.init();
+      }
+    );
+  }
+);
+
+
+
+
+
+/*
+
+
+working
+chilipeppr.load(
+  "com-chilipeppr-webcam-mjpeg",
+  "http://raw.githubusercontent.com/martin-84/widget-nde-red-dashbrd/master/auto-generated-widget.html",
+  function() {
+    // Callback after widget loaded into #myDivNdeRedDashbrd
+    // Now use require.js to get reference to instantiated widget
+    cprequire(
+      ["inline:com-chilipeppr-nde-red-dashbrd"], // the id you gave your widget
+      function(myObjNdeRedDashbrd) {
+        // Callback that is passed reference to the newly loaded widget
+        console.log("Widget / NR Dashboard just got loaded.", myObjNdeRedDashbrd);
+        myObjNdeRedDashbrd.init();
+      }
+    );
+  }
+);
+
+
+
+*/
+
             /* For testing. Load RPM Sensor */
             // com-chilipeppr-ws-rpmsensor
             /*
