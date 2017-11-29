@@ -1332,12 +1332,8 @@ chilipeppr.load(
 
 chilipeppr.load(
   "com-chilipeppr-webcam-mjpeg",
-  "http://raw.githubusercontent.com/spriggsy/widget-mycam/master/auto-generated-widget.html",
-  function() {
-    // Callback after widget loaded into #myDivWidgetMycam
-    // Now use require.js to get reference to instantiated widget
+  "http://raw.githubusercontent.com/spriggsy/widget-mycam/master/auto-generated-widget.html"
 
-  }
 );
  
 
