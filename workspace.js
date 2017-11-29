@@ -1330,17 +1330,7 @@ chilipeppr.load(
 
 
 
-chilipeppr.load(
-  "com-chilipeppr-webcam-mjpeg",
-              "http://raw.githubusercontent.com/chilipeppr/widget-rpmsensor/master/auto-generated-widget.html"
-
-);
  
-
-
-
-/*
-
 
 working
 chilipeppr.load(
@@ -1360,9 +1350,7 @@ chilipeppr.load(
   }
 );
 
-
-
-*/
+ 
 
             /* For testing. Load RPM Sensor */
             // com-chilipeppr-ws-rpmsensor
