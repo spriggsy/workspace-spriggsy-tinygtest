@@ -1327,8 +1327,7 @@ chilipeppr.load(
 
 
 
- 
-chilipeppr.load(
+ chilipeppr.load(
   "com-chilipeppr-webcam-mjpeg",
   "http://raw.githubusercontent.com/floiolaf/widget-mycam/master/auto-generated-widget.html",
   function() {
