@@ -1528,8 +1528,9 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
 
 
 
+/*
 
-
+working
 chilipeppr.load(
   "com-chilipeppr-webcam-mjpeg",
   "http://raw.githubusercontent.com/floiolaf/widget-mycam/master/auto-generated-widget.html",
@@ -1546,6 +1547,33 @@ chilipeppr.load(
     );
   }
 );
+
+
+*/
+
+
+chilipeppr.load(
+  "com-chilipeppr-webcam-mjpeg",
+  "http://raw.githubusercontent.com/spriggsy/widget-mycam/master/auto-generated-widget.html",
+  function() {
+    // Callback after widget loaded into #myDivWidgetMycam
+    // Now use require.js to get reference to instantiated widget
+    cprequire(
+      ["inline:com-chilipeppr-widget-mycam"], // the id you gave your widget
+      function(myObjWidgetMycam) {
+        // Callback that is passed reference to the newly loaded widget
+        console.log("Widget / myCam just got loaded.", myObjWidgetMycam);
+        myObjWidgetMycam.init();
+      }
+    );
+  }
+);
+
+
+
+
+
+
 
 
  
@@ -1731,7 +1759,7 @@ chilipeppr.load(
                         <!-- Tinyg -->
                         <div id="com-chilipeppr-tinyg" class="">Load TinyG Here</div>
                         <!-- WebRTC Client -->
-                        <div id="com-chilipeppr-webcam-mjpeg" class="">Load Client Here</div>
+                        <div id="com-chilipeppr-webcam-mjpeg" class="">Load my Client Here</div>
                         <!-- Serial Port Selector -->
                         <div id="com-chilipeppr-widget-spjs-instance" class="">Load Serial Port Selector Here</div>
                     </div>
