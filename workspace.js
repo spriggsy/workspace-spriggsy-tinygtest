@@ -1301,21 +1301,20 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
             );
 
             // WebRTC Client com-chilipeppr-webrtcclient
-            
+            /*
             chilipeppr.load(
                 "com-chilipeppr-webrtcclient",
-                "http://jsfiddle.net/voodoomanmiracle/y49wkvzj/show/light/"
+                "http://fiddle.jshell.net/chilipeppr/qWj4f/show/light/",
         
-            //function () {
-             //   cprequire(
-              //  ["inline:com-chilipeppr-widget-webrtc-client"],
+            function () {
+                cprequire(
+                ["inline:com-chilipeppr-widget-webrtc-client"],
         
-               // function (webrtcclient) {
-            //        webrtcclient.init();
-             //   });
-            // }
-            ); //End WebRTC Client
-            
+                function (webrtcclient) {
+                    webrtcclient.init();
+                });
+            }); //End WebRTC Client
+            */
 
             /* For testing. Load RPM Sensor */
             // com-chilipeppr-ws-rpmsensor
