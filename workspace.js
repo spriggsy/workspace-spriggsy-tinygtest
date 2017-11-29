@@ -1302,17 +1302,27 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
 
             // com-chilipeppr-webcam-mjpeg
             
-            chilipeppr.load(
-                "com-chilipeppr-webcam-mjpeg",
-                "http://fiddle.jshell.net/voodoomanmiracle/y49wkvzj/show/light/",
-                function() {
-                // Callback after widget loaded into #myDivWidgetRpmsensor
-                // Now use require.js to get reference to instantiated widget
-               
-              }
-        
-          ); //End WebRTC Client
             
+            
+            chilipeppr.load(
+  "com-chilipeppr-webcam-mjpeg",
+  "http://raw.githubusercontent.com/chilipeppr/widget-cam/master/auto-generated-widget.html",
+  function() {
+    // Callback after widget loaded into #myDivWidgetCam
+    // Now use require.js to get reference to instantiated widget
+    cprequire(
+      ["inline:com-chilipeppr-widget-cam"], // the id you gave your widget
+      function(myObjWidgetCam) {
+        // Callback that is passed reference to the newly loaded widget
+        console.log("Widget / Cam just got loaded.", myObjWidgetCam);
+        myObjWidgetCam.init();
+      }
+    );
+  }
+);
+
+
+
 
             /* For testing. Load RPM Sensor */
             // com-chilipeppr-ws-rpmsensor
