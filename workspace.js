@@ -1326,24 +1326,6 @@ chilipeppr.load(
 
 
 
-
- chilipeppr.load(
-  "com-chilipeppr-webcam-mjpeg",
-  "http://raw.githubusercontent.com/floiolaf/widget-mycam/master/auto-generated-widget.html",
-  function() {
-    // Callback after widget loaded into #myDivWidgetMycam
-    // Now use require.js to get reference to instantiated widget
-    cprequire(
-      ["inline:com-chilipeppr-widget-mycam"], // the id you gave your widget
-      function(myObjWidgetMycam) {
-        // Callback that is passed reference to the newly loaded widget
-        console.log("Widget / myCam just got loaded.", myObjWidgetMycam);
-        myObjWidgetMycam.init();
-      }
-    );
-  }
-);
-
  
 
             /* For testing. Load RPM Sensor */
