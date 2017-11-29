@@ -1327,12 +1327,7 @@ chilipeppr.load(
 
 
 
-
-
-
  
-
-working
 chilipeppr.load(
   "com-chilipeppr-webcam-mjpeg",
   "http://raw.githubusercontent.com/martin-84/widget-nde-red-dashbrd/master/auto-generated-widget.html",
