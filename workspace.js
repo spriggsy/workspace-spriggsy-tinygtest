@@ -1306,10 +1306,10 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
 
 
 
-
-chilipeppr.load(
-  "com-chilipeppr-webcam-mjpeg",
-  "http://raw.githubusercontent.com/floiolaf/widget-mycam/master/auto-generated-widget.html",
+            
+            chilipeppr.load(
+  "#myDivWidgetMycam",
+  "http://raw.githubusercontent.com/spriggsy/widget-mycam/master/auto-generated-widget.html",
   function() {
     // Callback after widget loaded into #myDivWidgetMycam
     // Now use require.js to get reference to instantiated widget
@@ -1323,6 +1323,12 @@ chilipeppr.load(
     );
   }
 );
+
+
+
+
+
+
             /* For testing. Load RPM Sensor */
             // com-chilipeppr-ws-rpmsensor
             /*
