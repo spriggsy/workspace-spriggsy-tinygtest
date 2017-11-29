@@ -1330,7 +1330,7 @@ chilipeppr.load(
  
 chilipeppr.load(
   "com-chilipeppr-webcam-mjpeg",
-  "http://raw.githubusercontent.com/martin-84/widget-nde-red-dashbrd/master/auto-generated-widget.html",
+  "http://raw.githubusercontent.com/floiolaf/widget-mycam/master/auto-generated-widget.html",
   function() {
     // Callback after widget loaded into #myDivNdeRedDashbrd
     // Now use require.js to get reference to instantiated widget
